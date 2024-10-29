@@ -33,4 +33,9 @@ export default sidebar({
     children: ["springcloud01","springcloud02"],
   }],
 
+  "/md/data-structure/" : [{
+    text : "MySQL进阶",
+    children: ["MySQL高级"],
+  }],
+
 });
