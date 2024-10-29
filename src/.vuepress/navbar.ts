@@ -1,8 +1,8 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  // "/",
-  // "/md/resume",
+  "/",
+  "/md/resume",
   {
     text: "Java",
     // icon: "book",
