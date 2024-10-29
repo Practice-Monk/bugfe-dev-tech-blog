@@ -10,42 +10,42 @@ bgImageStyle:
 heroText:  bugfe 的进化历程 
 tagline: 欢迎来到bugfe的博客！这是一个学习与成长的汇聚地，无论你是技术小白还是进阶大神，都能在这里找到你感兴趣的内容。希望这里能激发你的思考、点燃你的好奇，带你探索更多的知识领域。加入我们的学习之旅，让我们共同成长，收获智慧！
 actions:
-  - text: 查看简历 👣
-    link: ./md/
-    type: primary
-
-  - text: 我的项目 💐
-    link: https://openai.gaga.plus/
+#  - text: 查看简历 👣
+#    link: ./md/
+#    type: primary
+#
+#  - text: 我的项目 💐
+#    link: https://xxx.plus/
 
 highlights:
   - header: 
     bgImage: /assets/bg/6-light.svg
     bgImageDark: /assets/bg/6-dark.svg
     features:
-      - title: 公众号 - 抽奖系统
+      - title: 数据结构
         icon: comment-dots
-        details: 23年1月，以DDD领域驱动设计架构，开发完成分布式抽奖系统。运用了全面的分布式技术栈。
+        details: 2024倾情制作，欢迎来lu！
         link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
 
-      - title: 手写 MyBatis
+      - title: 锁事壹二三
         icon: box-archive
-        details: 23年4月，深度学习《手写MyBatis：渐进式源码实践》一书，完整实现了一个 MyBatis ORM 框架。
+        details: 24呕心沥血，解开你心头的锁！
         link: https://theme-hope.vuejs.press/zh/guide/markdown/container.html
 
-      - title: OpenAI 应用服务
-        icon: table-columns
-        details: 23年8月，学习 OpenAi 技术，学习 OpenAi SDK 开发，完成应用场景的对接使用「涵盖支付对接」。
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
-        
-      - title: SpringBoot Stater
-        icon: table-columns
-        details: 23年10月，通过对业务项目开发中的学习，对同类共性功能的重复开发，凝练成通用的服务治理组件。
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
-        
-      - title: SpringBoot Stater
-        icon: table-columns
-        details: 24年8月，通过对业务项目开发中的学习，对同类共性功能的重复开发，凝练成通用的服务治理组件。
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+#      - title: OpenAI 应用服务
+#        icon: table-columns
+#        details: 23年8月，学习 OpenAi 技术，学习 OpenAi SDK 开发，完成应用场景的对接使用「涵盖支付对接」。
+#        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+#        
+#      - title: SpringBoot Stater
+#        icon: table-columns
+#        details: 23年10月，通过对业务项目开发中的学习，对同类共性功能的重复开发，凝练成通用的服务治理组件。
+#        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+#        
+#      - title: SpringBoot Stater
+#        icon: table-columns
+#        details: 24年8月，通过对业务项目开发中的学习，对同类共性功能的重复开发，凝练成通用的服务治理组件。
+#        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
 
 copyright: false
 footer: |-
