@@ -1,3 +1,11 @@
+---
+title: MySQL进阶
+index: false
+#icon: laptop-code
+category:
+  - 开发笔记
+  - 学习记录
+---
 <h1 id="e16832e9">1 MySQL环境搭建</h1>
 <h2 id="efa975da">1.0 安装Docker环境</h2>
 ```shell
