@@ -49,7 +49,7 @@ highlights:
 
 copyright: false
 footer: |-
-  <div class="content"><a href="http://beian.miit.gov.cn" target="_blank">京ICP备1903****号</a> | MIT 协议, 版权所有 © 2023 你的名字，All rights reserved.</div>
+  <div class="content"><a href="http://beian.miit.gov.cn" target="_blank">京ICP备1903****号</a> | MIT 协议, 版权所有 © 2023 bugfe，All rights reserved.</div>
 ---
 
 <br/>
