@@ -334,7 +334,7 @@ insert into temp values(1,10/0,'2020-10-02');
 
 ### 1.4.2 更改sql_mode
 #### 临时设置
-```java
+```sql
 SET GLOBAL sql_mode = 'mode1,model2,...';  -- 全局针对所有的客户端连接有效，要重新启动客户端生效，重启MySQL服务后失效
 SET SESSION sql_mode = 'mode1,model2,...'; -- 当前会话生效，关闭当前会话就不生效了。可以省略SESSION关键字
 ```
