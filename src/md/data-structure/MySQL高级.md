@@ -1,4 +1,12 @@
-# 1 MySQL环境搭建
+---
+title: MySQL进阶
+index: false
+#icon: laptop-code
+category:
+  - 开发笔记
+  - 学习记录
+---
+
 ## 1.0 安装Docker环境
 ```shell
 启动docker
