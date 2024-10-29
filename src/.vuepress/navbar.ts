@@ -6,7 +6,7 @@ export default navbar([
   {
     text: "Java",
     // icon: "book",
-    // link: "/md/java/java01.md",
+    link: "/md/java/",
   },
   {
     text: "Spring全家桶",
