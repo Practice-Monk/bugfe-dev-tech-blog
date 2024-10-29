@@ -41,6 +41,11 @@ highlights:
         icon: table-columns
         details: 23年10月，通过对业务项目开发中的学习，对同类共性功能的重复开发，凝练成通用的服务治理组件。
         link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+        
+      - title: SpringBoot Stater
+        icon: table-columns
+        details: 24年8月，通过对业务项目开发中的学习，对同类共性功能的重复开发，凝练成通用的服务治理组件。
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
 
 copyright: false
 footer: |-
