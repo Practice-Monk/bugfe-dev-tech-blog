@@ -21,12 +21,12 @@ export default navbar([
   {
     text: "数据结构与算法",
     // icon: "book",
-    link: "/md/dev-log/java01.md",
+    link: "xxx",
   },
   {
     text: "Redis",
     // icon: "book",
-    link: "/md/dev-log/java01.md",
+    link: "xxx",
   },
   {
     text: "MySQL",
@@ -40,11 +40,11 @@ export default navbar([
   {
     text: "Netty4.x",
     // icon: "book",
-    link: "/md/dev-log/java01.md",
+    link: "xxx",
   },
   {
     text: "阿里云",
     // icon: "book",
-    link: "/md/dev-log/java01.md",
+    link: "xxx",
   }
 ]);
