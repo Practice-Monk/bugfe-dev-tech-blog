@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  // logo: "/logo.svg",
 
   repo: "fuzhengwei/xfg-resume-blog",
 
