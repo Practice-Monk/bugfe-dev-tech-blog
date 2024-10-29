@@ -9,6 +9,11 @@ export default navbar([
     link: "/md/java/java01.md",
   },
   {
+    text: "开发日志",
+    // icon: "book",
+    link: "/md/dev-log/day01.md",
+  },
+  {
     text: "Spring全家桶",
     // icon: "book",
     // link: "/md/dev-log/java01.md",
