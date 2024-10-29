@@ -1,3 +1,12 @@
+---
+title: Day012
+index: false
+icon: laptop-code
+category:
+  - 开发笔记
+  - 学习记录
+---
+
 # 1.1问题描述
 缓存第一个经典问题是缓存失效。
 
