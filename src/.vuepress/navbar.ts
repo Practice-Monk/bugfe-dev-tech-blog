@@ -26,7 +26,7 @@ export default navbar([
   {
     text: "Redis",
     // icon: "book",
-    link: "xxx",
+    link: "/md/dev-log/day01.md",
   },
   {
     text: "MySQL",
