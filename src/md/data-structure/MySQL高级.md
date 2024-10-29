@@ -1,5 +1,5 @@
 ---
-title: MySQL进阶
+title: MySQL高级
 index: false
 #icon: laptop-code
 category:
