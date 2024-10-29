@@ -18,11 +18,11 @@ export default navbar([
       {text: "SpringCloud",link: "xxx"}
     ]
   },
-  {
-    text: "数据结构与算法",
-    // icon: "book",
-    link: "xxx",
-  },
+  // {
+  //   text: "数据结构与算法",
+  //   // icon: "book",
+  //   link: "xxx",
+  // },
   {
     text: "Redis",
     // icon: "book",
@@ -37,14 +37,14 @@ export default navbar([
       {text: "MySQL高级",link: "xxx"}
     ]
   },
-  {
-    text: "Netty4.x",
-    // icon: "book",
-    link: "xxx",
-  },
-  {
-    text: "阿里云",
-    // icon: "book",
-    link: "xxx",
-  }
+  // {
+  //   text: "Netty4.x",
+  //   // icon: "book",
+  //   link: "xxx",
+  // },
+  // {
+  //   text: "阿里云",
+  //   // icon: "book",
+  //   link: "xxx",
+  // }
 ]);
