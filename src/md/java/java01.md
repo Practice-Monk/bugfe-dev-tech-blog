@@ -1,5 +1,5 @@
 ---
-title: Day01
+title: java01
 index: false
 icon: laptop-code
 category:
