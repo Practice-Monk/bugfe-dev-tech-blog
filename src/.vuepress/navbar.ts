@@ -11,7 +11,7 @@ export default navbar([
   {
     text: "Spring全家桶",
     // icon: "book",
-    link: "/md/dev-log/day01.md",
+    // link: "/md/dev-log/day01.md",
     items: [
       {text: "Spring手搓",link: "xxx"},
       {text: "SpringBoot",link: "xxx"},
@@ -31,7 +31,7 @@ export default navbar([
   {
     text: "MySQL",
     // icon: "book",
-    link: "/md/dev-log/day01.md",
+    // link: "/md/dev-log/day01.md",
     items: [
       {text: "MySQL基础",link: "xxx"},
       {text: "MySQL高级",link: "xxx"}
