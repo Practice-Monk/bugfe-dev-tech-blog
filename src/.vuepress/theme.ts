@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import search from "./search";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
@@ -23,6 +24,9 @@ export default hopeTheme({
 
   // sidebar
   sidebar,
+
+  // search
+  search,
 
   footer: "我的微信：bugfe",
 
