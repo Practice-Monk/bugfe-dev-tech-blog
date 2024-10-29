@@ -6,12 +6,12 @@ export default navbar([
   {
     text: "Java",
     // icon: "book",
-    link: "/md/java/java01.md",
+    link: "/md/java/java01",
   },
   {
     text: "开发日志",
     // icon: "book",
-    link: "/md/dev-log/day01.md",
+    link: "/md/dev-log/day01",
   },
   {
     text: "Spring全家桶",

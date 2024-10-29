@@ -1,25 +1,21 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/": [
+  "/md/dev-log": [
     // "",
     {
-      text: "Java入门",
-      prefix: "md/java/",
-      children: ["java01.md","java02.md","java03.md"],
-      displayAllHeaders: false
-    },
-    {
       text: "01",
-      prefix: "md/dev-log/",
-      children: ["day01.md","day02.md","day03.md","day04.md","day05.md","day06.md","day07~day08.md","day09~day10.md","day11.md","day12.md"],
-      displayAllHeaders: false
+      // prefix: "md/dev-log/",
+      children: ["day01","day02","day03","day04","day05","day06","day07~day08","day09~day10","day11","day12"],
     },
 
   ],
 
-
-
-
+  "/md/java/" : [
+    {
+      text : "Java入门",
+      children: ["java01","java02","java03"],
+    }
+  ],
 
 });
