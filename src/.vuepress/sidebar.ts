@@ -18,4 +18,19 @@ export default sidebar({
     }
   ],
 
+  "/md/spring/" : [{
+    text : "Spring入门",
+    children: ["spring01","spring02"],
+  }],
+
+  "/md/springboot/" : [{
+    text : "SpringBoot入门",
+    children: ["springboot01","springboot02"],
+  }],
+
+  "/md/springcloud/" : [{
+    text : "SpringBoot入门",
+    children: ["springcloud01","springcloud02"],
+  }],
+
 });

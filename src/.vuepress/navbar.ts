@@ -16,11 +16,11 @@ export default navbar([
   {
     text: "Spring全家桶",
     // icon: "book",
-    // link: "/md/dev-log/java01.md",
+    // link: "/md/dev-log/springboot01.md",
     items: [
-      {text: "Spring手搓",link: "xxx"},
-      {text: "SpringBoot",link: "xxx"},
-      {text: "SpringCloud",link: "xxx"}
+      {text: "Spring手搓",link: "/md/spring/spring01"},
+      {text: "SpringBoot",link: "/md/springboot/springboot01"},
+      {text: "SpringCloud",link: "/md/springcloud/springcloud01"}
     ]
   },
   // {
@@ -36,7 +36,7 @@ export default navbar([
   {
     text: "MySQL",
     // icon: "book",
-    // link: "/md/dev-log/java01.md",
+    // link: "/md/dev-log/springboot01.md",
     items: [
       {text: "MySQL基础",link: "xxx"},
       {text: "MySQL高级",link: "xxx"}
