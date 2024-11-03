@@ -1,13 +1,14 @@
 import { defineClientConfig } from "@vuepress/client";
-import { VPLink } from "C:/Users/17759/Desktop/vuepress/xfg-dev-tech-blog/node_modules/vuepress-shared/lib/client/index.js";
+import { VPLink } from "C:/Users/17759/Desktop/vuepress/bugfe-dev-tech-blog/node_modules/vuepress-shared/lib/client/index.js";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "C:/Users/17759/Desktop/vuepress/xfg-dev-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "C:/Users/17759/Desktop/vuepress/bugfe-dev-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineAutoCatalogIconComponent } from "C:/Users/17759/Desktop/vuepress/xfg-dev-tech-blog/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
-import { GlobalEncrypt, LocalEncrypt } from "C:/Users/17759/Desktop/vuepress/xfg-dev-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "C:/Users/17759/Desktop/vuepress/xfg-dev-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { defineAutoCatalogIconComponent } from "C:/Users/17759/Desktop/vuepress/bugfe-dev-tech-blog/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
+import { GlobalEncrypt, LocalEncrypt } from "C:/Users/17759/Desktop/vuepress/bugfe-dev-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "C:/Users/17759/Desktop/vuepress/bugfe-dev-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import Slide from "C:/Users/17759/Desktop/vuepress/bugfe-dev-tech-blog/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "C:/Users/17759/Desktop/vuepress/xfg-dev-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "C:/Users/17759/Desktop/vuepress/bugfe-dev-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineAutoCatalogIconComponent(HopeIcon);
 
@@ -40,6 +41,6 @@ export default defineClientConfig({
   layouts: {
     Layout,
     NotFound,
-
+    Slide,
   }
 });

@@ -4,7 +4,16 @@
 
 @media (min-width: hope-config.$pc) {
   html {
-    --content-width: calc(100vw - 40rem)!important;
-    --sidebar-width: 14rem !important;
+    //--content-width: calc(100vw - 45rem)!important;
+    //--sidebar-width: 14rem !important;
+    // sidebar
+    --sidebar-width: 272px !important;
+    //$sidebar-width: 18rem !default;
+    //$sidebar-mobile-width: 16rem !default;
+
+    // content
+    --content-width: 1282px !important;
+    //$content-width: 780px !default;
+    //$home-page-width: 1160px !default;
   }
 }
