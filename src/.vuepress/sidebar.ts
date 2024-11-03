@@ -1,6 +1,9 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export default sidebar({
+export default sidebar(
+
+    {
+
   "/md/dev-log": [
     // "",
     {
@@ -15,53 +18,28 @@ export default sidebar({
     {
       text : "Java入门1",
       children: ["编码指南","java02","java03","java04"],
-    },
-    // {
-    //   text : "Java入门2",
-    //   // collapsible: true,
-    //   children: ["编码指南","java02","java03","java04"],
-    // },
-    // {
-    //   text : "Java入门1",
-    //   // collapsible: true,
-    //   children: ["编码指南","java02","java03","java04"],
-    // },
-    // {
-    //   text : "Java入门2",
-    //   // collapsible: true,
-    //   children: ["编码指南","java02","java03","java04"],
-    // },
-    // {
-    //   text : "Java入门1",
-    //   // collapsible: true,
-    //   children: ["编码指南","java02","java03","java04"],
-    // },
-    // {
-    //   text : "Java入门2",
-    //   // collapsible: true,
-    //   children: ["编码指南","java02","java03","java04"],
-    // },
+    },],
 
-  ],
 
   "/md/spring/" : [{
     text : "Spring入门",
-    children: ["spring01","spring02"],
+    children: ["spring01","spring02","Spring事务"],
   }],
+  //
+  // "/md/springboot/" : [{
+  //   text : "SpringBoot入门",
+  //   children: ["springboot01","springboot02"],
+  // }],
+  //
+  // "/md/springcloud/" : [{
+  //   text : "SpringBoot入门",
+  //   children: ["springcloud01","springcloud02"],
+  // }],
+  //
+  // "/md/data-structure/" : [{
+  //   text : "MySQL进阶",
+  //   children: ["MySQL高级"],
+  // }],
 
-  "/md/springboot/" : [{
-    text : "SpringBoot入门",
-    children: ["springboot01","springboot02"],
-  }],
-
-  "/md/springcloud/" : [{
-    text : "SpringBoot入门",
-    children: ["springcloud01","springcloud02"],
-  }],
-
-  "/md/data-structure/" : [{
-    text : "MySQL进阶",
-    children: ["MySQL高级"],
-  }],
-
-});
+}
+);

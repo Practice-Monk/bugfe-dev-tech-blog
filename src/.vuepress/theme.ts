@@ -38,6 +38,9 @@ export default hopeTheme({
   breadcrumb: false,
 
 
+  toc: false,
+
+
   footer: "我的微信：bugfe",
 
   displayFooter: true,
