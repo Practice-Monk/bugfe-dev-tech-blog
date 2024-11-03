@@ -30,12 +30,12 @@ export default hopeTheme({
 
   // sidebar
   sidebar,
-  //
-  // // pageInfo
-  // pageInfo: false,
-  //
-  // // 面包屑
-  // breadcrumb: false,
+
+  // pageInfo
+  pageInfo: false,
+
+  // 面包屑
+  breadcrumb: false,
 
 
   footer: "我的微信：bugfe",
