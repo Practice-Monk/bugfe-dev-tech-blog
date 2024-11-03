@@ -29,8 +29,10 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
+  // pageInfo
   pageInfo: false,
 
+  // 面包屑
   breadcrumb: false,
 
 
