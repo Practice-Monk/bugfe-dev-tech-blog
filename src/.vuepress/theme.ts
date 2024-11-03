@@ -19,6 +19,8 @@ export default hopeTheme({
 
   // logo: "/logo.svg",
 
+  //
+
   // repo: "fuzhengwei/xfg-resume-blog",
 
   docsDir: "src",
