@@ -43,11 +43,11 @@ export default navbar([
       {text: "MySQL高级",link: "xxx"}
     ]
   },
-  // {
-  //   text: "Netty4.x",
-  //   // icon: "book",
-  //   link: "xxx",
-  // },
+  {
+    text: "RabbitMq",
+    // icon: "book",
+    link: "/md/rabbitmq/简述RabbitMQ的架构设计.md",
+  },
   // {
   //   text: "阿里云",
   //   // icon: "book",
