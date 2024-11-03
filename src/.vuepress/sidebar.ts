@@ -14,7 +14,7 @@ export default sidebar({
   "/md/java/" : [
     {
       text : "Java入门",
-      children: ["java01","java02","java03"],
+      children: ["java01","java02","java03","java04"],
     }
   ],
 
