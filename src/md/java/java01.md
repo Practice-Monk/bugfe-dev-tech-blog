@@ -1,6 +1,6 @@
 ---
 title: java01
-#index: false
+index: false
 #icon: laptop-code
 #category:
 #  - 开发笔记
