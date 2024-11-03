@@ -1,11 +1,11 @@
 ---
 title: java01
-index: false
-icon: laptop-code
-category:
-  - 开发笔记
-  - 学习记录
-  - 日常总结
+#index: false
+#icon: laptop-code
+#category:
+#  - 开发笔记
+#  - 学习记录
+#  - 日常总结
 ---
 
 ## 任务
