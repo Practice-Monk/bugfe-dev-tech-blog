@@ -5,5 +5,6 @@
 @media (min-width: hope-config.$pc) {
   html {
     --content-width: calc(100vw - 40rem)!important;
+    --sidebar-width: 14rem !important;
   }
 }
