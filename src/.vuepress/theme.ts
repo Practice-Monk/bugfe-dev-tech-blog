@@ -25,6 +25,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
+  search,
 
 
   footer: "我的微信：bugfe",
