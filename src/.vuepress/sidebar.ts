@@ -13,9 +13,35 @@ export default sidebar({
 
   "/md/java/" : [
     {
-      text : "Java入门",
-      children: ["java01","java02","java03","java04"],
-    }
+      text : "Java入门1",
+      children: ["编码指南","java02","java03","java04"],
+    },
+    // {
+    //   text : "Java入门2",
+    //   // collapsible: true,
+    //   children: ["编码指南","java02","java03","java04"],
+    // },
+    // {
+    //   text : "Java入门1",
+    //   // collapsible: true,
+    //   children: ["编码指南","java02","java03","java04"],
+    // },
+    // {
+    //   text : "Java入门2",
+    //   // collapsible: true,
+    //   children: ["编码指南","java02","java03","java04"],
+    // },
+    // {
+    //   text : "Java入门1",
+    //   // collapsible: true,
+    //   children: ["编码指南","java02","java03","java04"],
+    // },
+    // {
+    //   text : "Java入门2",
+    //   // collapsible: true,
+    //   children: ["编码指南","java02","java03","java04"],
+    // },
+
   ],
 
   "/md/spring/" : [{
