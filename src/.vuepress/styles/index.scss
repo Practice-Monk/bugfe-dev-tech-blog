@@ -1,1 +1,9 @@
 // place your custom styles here
+// .vuepress/styles/index.scss
+@use "@sass-palette/hope-config";
+
+@media (min-width: hope-config.$pc) {
+  html {
+    --content-width: calc(100vw - 40rem)!important;
+  }
+}
