@@ -113,7 +113,7 @@ SHOW VARIABLES LIKE '%long_query_time%'; -- 查看值：默认10秒
 
 
 
-**注意**默认情况下，传统rpm方式安装的MySQL环境自带mysqldumpslow工具，直接使用即可。docker下安装的MySQL环境没有mysqldumpslow工具。
+**注意**默认情况下，传统rpm方式（5.7）安装的MySQL环境自带mysqldumpslow工具，直接使用即可。docker下安装的MySQL环境没有mysqldumpslow工具。
 
 
 
