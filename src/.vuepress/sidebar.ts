@@ -29,6 +29,11 @@ export default sidebar(
             text: "RabbitMq",
             children: ["简述RabbitMQ的架构设计"],
         }],
+
+        "/md/mysql/" : [{
+           text : "MySQL",
+           children : ["MySQL高级"],
+        }],
         //
         // "/md/springboot/" : [{
         //   text : "SpringBoot入门",
@@ -42,7 +47,7 @@ export default sidebar(
         //
         // "/md/data-structure/" : [{
         //   text : "MySQL进阶",
-        //   children: ["MySQL高级"],
+        //   children: ["MySQL高级.md"],
         // }],
 
     }
