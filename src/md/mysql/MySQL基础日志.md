@@ -127,13 +127,13 @@ mysqldumpslow --help
 
 -- 工作常用参考
 -- 1.得到返回记录集最多的10个SQL
-mysqldumpslow -s r -t 10 /var/lib/mysql/atguigu-slow.log
+mysqldumpslow -s r -t 10 /var/lib/mysql/bugfe-slow.log
 -- 2.得到访问次数最多的10个SQL
-mysqldumpslow -s c -t 10 /var/lib/mysql/atguigu-slow.log
+mysqldumpslow -s c -t 10 /var/lib/mysql/bugfe-slow.log
 -- 3.得到按照时间排序的前10条里面含有左连接的查询语句
-mysqldumpslow -s t -t 10 -g "left join" /var/lib/mysql/atguigu-slow.log
+mysqldumpslow -s t -t 10 -g "left join" /var/lib/mysql/bugfe-slow.log
 -- 4.另外建议在使用这些命令时结合 | 和more 使用 ，否则语句过多有可能出现爆屏情况
-mysqldumpslow -s r -t 10 /var/lib/mysql/atguigu-slow.log | more
+mysqldumpslow -s r -t 10 /var/lib/mysql/bugfe-slow.log | more
 ```
 
 - -a: 不将数字抽象成N，字符串抽象成S
