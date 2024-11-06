@@ -32,7 +32,8 @@ export default sidebar(
 
         "/md/mysql/": [{
             text: "MySQL",
-            collapsable: false,
+            // 可选的。设置分组是否默认展开，默认值是 false
+            expanded: true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: ["MySQL高级", "MySQL基础日志", "MySQL事务日志", "MySQL锁"],
         }],
