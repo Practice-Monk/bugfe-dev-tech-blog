@@ -35,7 +35,7 @@ highlights:
       - title: MySQL
         icon: table-columns
         details: 24MySQL
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+        link: http://120.76.139.224/md/mysql/MySQL高级.html
         
         
       - title: JVM
