@@ -32,7 +32,7 @@ export default sidebar(
 
         "/md/mysql/" : [{
            text : "MySQL",
-           children : ["MySQL高级"],
+           children : ["MySQL高级","MySQL基础日志","MySQL事务日志","MySQL锁"],
         }],
         //
         // "/md/springboot/" : [{
