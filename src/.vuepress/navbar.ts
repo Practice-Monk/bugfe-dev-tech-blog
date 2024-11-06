@@ -40,7 +40,7 @@ export default navbar([
     // link: "/md/dev-log/springboot01.md",
     items: [
       {text: "MySQL基础",link: "xxx"},
-      {text: "MySQL高级",link: "xxx"}
+      {text: "MySQL高级.md",link: "xxx"}
     ]
   },
   {

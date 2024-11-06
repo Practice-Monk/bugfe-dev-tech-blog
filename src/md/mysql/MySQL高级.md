@@ -54,6 +54,10 @@ SHOW VARIABLES LIKE '%default_storage_engine%';
 | 默认使用               |                              N                              |                              Y                               |
 | count(*)/不带where条件 |                             快                              |                              慢                              |
 | 使用场景               |  不需要事务支持、并发相对较低、数据相对修改较少、以读为主   |        需要事务支持、并发相对较高、数据更新较为频繁。        |
+
+.frm在mysql8中移除掉了，存储的是库或表的结构。
+InnoDB中的 **.ibd** 存储的是数据和索引。而**MyISAM**中 **.myd** 存的是数据、**.myi**存的是索引。
+
 ```sql
 select count(*)  from user;---若查询记录数时带了条件，那么MyIsam更快一些。
 select count(*)  from  user where age=18;----若查询记录数时带了条件，那么一样快。
