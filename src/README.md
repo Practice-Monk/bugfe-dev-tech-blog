@@ -32,20 +32,21 @@ highlights:
         details: 24呕心沥血，解开你心头的锁！
         link: https://theme-hope.vuejs.press/zh/guide/markdown/container.html
 
-#      - title: OpenAI 应用服务
-#        icon: table-columns
-#        details: 23年8月，学习 OpenAi 技术，学习 OpenAi SDK 开发，完成应用场景的对接使用「涵盖支付对接」。
-#        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
-#        
-#      - title: SpringBoot Stater
-#        icon: table-columns
-#        details: 23年10月，通过对业务项目开发中的学习，对同类共性功能的重复开发，凝练成通用的服务治理组件。
-#        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
-#        
-#      - title: SpringBoot Stater
-#        icon: table-columns
-#        details: 24年8月，通过对业务项目开发中的学习，对同类共性功能的重复开发，凝练成通用的服务治理组件。
-#        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+      - title: MySQL 应用服务
+        icon: table-columns
+        details: 24MySQL
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+        
+        
+      - title: JVM
+        icon: table-columns
+        details: 24JVM
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+        
+      - title: JUC
+        icon: table-columns
+        details: 24JUC
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
 
 copyright: false
 footer: |-
