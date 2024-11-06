@@ -23,28 +23,23 @@ highlights:
     bgImageDark: /assets/bg/6-dark.svg
     features:
       - title: 数据结构
-        icon: comment-dots
         details: 2024倾情制作，欢迎来lu！
         link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
 
       - title: 锁事壹二三
-        icon: box-archive
         details: 24呕心沥血，解开你心头的锁！
         link: https://theme-hope.vuejs.press/zh/guide/markdown/container.html
 
-      - title: MySQL 应用服务
-        icon: table-columns
+      - title: MySQL
         details: 24MySQL
         link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
         
         
       - title: JVM
-        icon: table-columns
         details: 24JVM
         link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
         
       - title: JUC
-        icon: table-columns
         details: 24JUC
         link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
 
