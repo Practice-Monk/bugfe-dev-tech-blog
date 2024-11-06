@@ -14,14 +14,14 @@ SHOW ENGINES;
 
 下面的结果表示MySQL中默认使用的存储引擎是InnoDB，支持事务，行锁，外键等。
 
-![img.png](img.png)
+![img.png](img/img.png)
 
 也可以通过以下语句查看默认的存储引擎：
 
 ```sql
 SHOW VARIABLES LIKE '%default_storage_engine%';
 ```
-![查看默认存储引擎.png](查看默认存储引擎.png)
+![查看默认存储引擎.png](img/查看默认存储引擎.png)
 
 ### 3.2 **主要的存储引擎介绍**
 ***
