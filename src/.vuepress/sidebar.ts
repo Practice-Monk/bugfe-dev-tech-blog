@@ -30,9 +30,11 @@ export default sidebar(
             children: ["简述RabbitMQ的架构设计"],
         }],
 
-        "/md/mysql/" : [{
-           text : "MySQL",
-           children : ["MySQL高级","MySQL基础日志","MySQL事务日志","MySQL锁"],
+        "/md/mysql/": [{
+            text: "MySQL",
+            collapsable: false,
+            sidebarDepth: 2,    // 可选的, 默认值是 1
+            children: ["MySQL高级", "MySQL基础日志", "MySQL事务日志", "MySQL锁"],
         }],
         //
         // "/md/springboot/" : [{
