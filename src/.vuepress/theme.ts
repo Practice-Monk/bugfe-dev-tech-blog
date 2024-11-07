@@ -1,5 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+// import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
