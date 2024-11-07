@@ -129,4 +129,5 @@ show variables like '%innodb_log_buffer_size%';
 第3步：当事务commit前，将redo log buffer中的内容刷新到 redo log file，且对redo log file采用追加写的方式
 
 第4步：定期将内存中修改的数据刷新到磁盘中，而当发生宕机即便数据未刷新到磁盘去，但是redo log日志文件中已经记录上了，因此仍然可以通过redo log来恢复，从而保证了ACID中的D，这就是redo log的作用。
+
 ![流程说明](img/流程说明.png)
