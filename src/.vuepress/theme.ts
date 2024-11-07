@@ -1,10 +1,11 @@
 import { hopeTheme } from "vuepress-theme-hope";
-// import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import {defineUserConfig} from "vuepress";
 
 
 export default hopeTheme({
+
   // hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   // author: {
@@ -21,6 +22,7 @@ export default hopeTheme({
   // logo: "/logo.svg",
 
   //
+  custom: true,
 
   // repo: "fuzhengwei/xfg-resume-blog",
 
@@ -41,11 +43,6 @@ export default hopeTheme({
   // 是否显示页面贡献者
   contributors: false,
 
-  AutoLinkConfig: {
-    text: "",
-    icon: "string",
-    link: "string",
-  },
 
 
   toc: false,

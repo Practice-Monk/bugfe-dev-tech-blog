@@ -7,7 +7,7 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText:  bugfe 的进化历程 
+heroText: bugfe 的进化历程 
 tagline: 欢迎来到bugfe的博客！这是一个学习与成长的汇聚地，无论你是技术小白还是进阶大神，都能在这里找到你感兴趣的内容。希望这里能激发你的思考、点燃你的好奇，带你探索更多的知识领域。加入我们的学习之旅，让我们共同成长，收获智慧！
 actions:
 #  - text: 查看简历 👣
