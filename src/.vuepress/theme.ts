@@ -41,6 +41,12 @@ export default hopeTheme({
   // 是否显示页面贡献者
   contributors: false,
 
+  AutoLinkConfig: {
+    text: "",
+    icon: "string",
+    link: "string",
+  },
+
 
   toc: false,
 
