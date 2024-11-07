@@ -117,8 +117,10 @@ redo log可以简单分为以下两个部分：
 show variables like '%innodb_log_buffer_size%';
 ```
 2、重做日志文件 (**redo log file**) ，保存在硬盘中，是持久的。redo log日志文件如下所示：
+
 ![redo-log-file](img/redo-log-file.png)
 整体写数据的流程如下所示：
+
 ![写数据的流程图](img/写数据的流程图.png)
 整体流程说明：
 
