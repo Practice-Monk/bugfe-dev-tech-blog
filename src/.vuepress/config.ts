@@ -1,8 +1,9 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import { getDirname, path } from "vuepress/utils";
+import * as path from "path";
 
-const __dirname = getDirname(import.meta.url);
+const __dirname = path.resolve();
+
 
 export default defineUserConfig({
   dest: "./dev-ops/nginx/html",
