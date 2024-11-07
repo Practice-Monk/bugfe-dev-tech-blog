@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
-import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
+import { getDirname, path } from "vuepress/utils";
 
 const __dirname = getDirname(import.meta.url);
 
@@ -14,11 +14,10 @@ export default defineUserConfig({
 
   theme,
 
-
   alias: {
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
         __dirname,
-        "./components/BlogHero.vue",
+        "./components/BlogHero.vue"
     ),
   },
 

@@ -1,10 +1,11 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import {defineUserConfig} from "vuepress";
 
 
 export default hopeTheme({
+
+  custom: true,
 
   // hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
@@ -22,7 +23,7 @@ export default hopeTheme({
   // logo: "/logo.svg",
 
   //
-  custom: true,
+
 
   // repo: "fuzhengwei/xfg-resume-blog",
 
