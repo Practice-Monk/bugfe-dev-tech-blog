@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
@@ -82,6 +83,12 @@ export default hopeTheme({
       // echarts: true,
 
       figure: true,
+
+      // docsearchPlugin:({
+      //   apiKey: ,
+      //   indexName: ,
+      //   appId: ,
+      // }),
 
       // install flowchart.ts before enabling it
       // flowchart: true,
