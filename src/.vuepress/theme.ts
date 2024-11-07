@@ -38,6 +38,9 @@ export default hopeTheme({
   // 面包屑
   breadcrumb: false,
 
+  // 是否显示页面贡献者
+  contributors: false,
+
 
   toc: false,
 
